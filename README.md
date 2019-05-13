@@ -25,7 +25,7 @@ we trained the model with KL (Kullback-Leibler) divergence. Two fully connected 
 2) Ensure the installation of TensorFlow and Keras.
 
 ### Datasets
-Install the vehicle dataset. We have used [VehicleID](https://pkuml.org/resources/pku-vehicleid.html) and [VeRi](https://vehiclereid.github.io/VeRi/). After applying for these datasets locate them in `datasets` directory and update the paths of the image dirctory and list file in `vehicle_datasets_utils.py`.
+Download the vehicle datasets. We have used [VehicleID](https://pkuml.org/resources/pku-vehicleid.html) and [VeRi](https://vehiclereid.github.io/VeRi/). After applying for these datasets locate them in `datasets` directory and update the paths of the image dirctory and list file in `vehicle_datasets_utils.py`.
 ### Pre-trained models
 We have used [Mobilent v1](https://arxiv.org/abs/1704.04861) as [baseline network](https://github.com/keras-team/keras/blob/master/keras/applications/mobilenet.py), so you can download the model's [weights pretrained on Imagenet](https://github.com/fchollet/deep-learning-models/releases/download/v0.6/mobilenet_1_0_224_tf_no_top.h5) or you can use our weights of Mobilenet that trained on VehicleID dataset [Mobilenet_VehicleID from GoogleDrive](https://drive.google.com/open?id=1tAUSTdmkXlIu26Uv92MaqGj2M366iZbi). Along with the mobilenet weights we have shared Mob_VFL model weights. Download both and locate them in `weights` directory.
 ## Training
