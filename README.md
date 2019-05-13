@@ -31,6 +31,7 @@ We have used [Mobilent v1](https://arxiv.org/abs/1704.04861) as [baseline networ
 ## Training
 After downloadig and locating datasets and weights in their correponding directories, the training process can be run
 simply by the command `python train_vehicle_reid.py`. 
+
 Notes
 * We didn't schedule the learning rate. So you can write your own code to do so.  
 * We have written the input image augmentation functions, However you can use Keras default [image augementation functions](https://github.com/keras-team/keras/blob/master/keras/preprocessing/image.py).
