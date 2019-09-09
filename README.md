@@ -1,5 +1,5 @@
 ## VFL-Vehcile-Re-Id
-Keras implementation of Variational Feature Learning Mob.VFL for vehicle re-identification as introduced in [Variational Representation Learning for Vehicle Re-Identification](https://arxiv.org/abs/1905.02343)
+Keras implementation of Variational Feature Learning Mob.VFL for vehicle re-identification as introduced in [Variational Representation Learning for Vehicle Re-Identification](https://ieeexplore.ieee.org/document/8803366)
 by:
 
 `Saghir Ahmed Saghir Alfasly, Yongjian Hu, Tiancai Liang, Xiaofeng Jin, Qingli Zhao, Beibei Liu.`
