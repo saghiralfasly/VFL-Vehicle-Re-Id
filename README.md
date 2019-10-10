@@ -5,9 +5,10 @@ by:
 `Saghir Ahmed Saghir Alfasly, Yongjian Hu, Tiancai Liang, Xiaofeng Jin, Qingli Zhao, Beibei Liu.`
 ## Contents
 1. [Overview](#overview)
-2. [Installation](#installation)
-3. [Training](#training)
-4. [Results](#results)
+2. [Learning](#learning)
+3. [Installation](#installation)
+4. [Training](#training)
+5. [Results](#results)
 
 
 
@@ -19,6 +20,10 @@ we trained the model with KL (Kullback-Leibler) divergence. Two fully connected 
 
 ![alt text](https://github.com/saghiralfasly/Vehicle-Re-ID/blob/master/images/model.png)
 
+## Learning
+Here we show the feature distrubution of the 10 classes of MNIST dataset. Left animation shows the feature distribution of testing set of MNIST when the model train with Softmax classifier only, Second animation shows the feature distribution of the unsupervised variational autoencoder, whereas the third shows the feature distribution of the proposed VFL model. This animation generated while training process by plotting the feature distribution after each epochs of total 50 epochs when batch size=100. 
+
+![](images/Feature_distribution.gif)
 
 ## Installation
 1) Clone this repository.
