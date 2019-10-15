@@ -3,6 +3,18 @@ Keras implementation of Variational Feature Learning Mob.VFL for vehicle re-iden
 by:
 
 `Saghir Ahmed Saghir Alfasly, Yongjian Hu, Tiancai Liang, Xiaofeng Jin, Qingli Zhao, Beibei Liu.`
+
+```
+@INPROCEEDINGS{alfasly_2019,
+author={S. A. S. {Alfasly} and Y. {Hu} and T. {Liang} and X. {Jin} and Q. {Zhao} and B. {Liu}},
+booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+title={Variational Representation Learning for Vehicle Re-Identification},
+year={2019},
+pages={3118-3122},
+doi={10.1109/ICIP.2019.8803366},
+month={Sep.},}
+```
+
 ## Contents
 1. [Overview](#overview)
 2. [Learning](#learning)
